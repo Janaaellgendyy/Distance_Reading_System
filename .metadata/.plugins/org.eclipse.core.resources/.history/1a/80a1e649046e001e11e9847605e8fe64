@@ -1,0 +1,20 @@
+/*
+ * ultraSonic.c
+ *
+ *  Created on: Oct 16, 2023
+ *      Author: janaw
+ */
+
+#include "ultraSonic.h"
+#include "icu.h"
+#include "gpio.h"
+
+
+
+void Ultrasonic_init(void){
+
+	ICU_init();
+	ICU_setCallBack();
+	 GPIO_setupPinDirection(PORTB_ID, PIN5_ID, PIN_OUTPUT);
+
+}

@@ -1,0 +1,498 @@
+21:49:14 **** Build of configuration Debug for project Jana_Wael_Mini_Project4 ****
+make all 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../icu.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"icu.d" -MT"icu.o" -c -o "icu.o" "../icu.c"
+../icu.c: In function 'ICU_setCallBack':
+../icu.c:82: warning: function return types not compatible due to 'volatile'
+Finished building: ../icu.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../lcd.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../ultraSonic.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ultraSonic.d" -MT"ultraSonic.o" -c -o "ultraSonic.o" "../ultraSonic.c"
+In file included from ../ultraSonic.c:8:
+../ultraSonic.h:16: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Ultrasonic_readDistance'
+In file included from ../ultraSonic.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+make: *** [ultraSonic.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:50:18 **** Incremental Build of configuration Debug for project Jana_Wael_Mini_Project4 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../ultraSonic.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ultraSonic.d" -MT"ultraSonic.o" -c -o "ultraSonic.o" "../ultraSonic.c"
+In file included from ../ultraSonic.c:8:
+../ultraSonic.h:16: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Ultrasonic_readDistance'
+In file included from ../ultraSonic.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+make: *** [ultraSonic.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:50:42 **** Incremental Build of configuration Debug for project Jana_Wael_Mini_Project4 ****
+make all 
+Building file: ../ultraSonic.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ultraSonic.d" -MT"ultraSonic.o" -c -o "ultraSonic.o" "../ultraSonic.c"
+In file included from ../ultraSonic.c:8:
+../ultraSonic.h:16: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Ultrasonic_readDistance'
+In file included from ../ultraSonic.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+make: *** [ultraSonic.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:51:29 **** Incremental Build of configuration Debug for project Jana_Wael_Mini_Project4 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../ultraSonic.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ultraSonic.d" -MT"ultraSonic.o" -c -o "ultraSonic.o" "../ultraSonic.c"
+In file included from ../ultraSonic.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ultraSonic.c
+ 
+Building target: Jana_Wael_Mini_Project4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Jana_Wael_Mini_Project4.map -mmcu=atmega32 -o "Jana_Wael_Mini_Project4.elf"  ./gpio.o ./icu.o ./lcd.o ./main.o ./ultraSonic.o   
+Finished building target: Jana_Wael_Mini_Project4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Jana_Wael_Mini_Project4.elf  >"Jana_Wael_Mini_Project4.lss"
+Finished building: Jana_Wael_Mini_Project4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Jana_Wael_Mini_Project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9646 bytes (29.4% Full)
+(.text + .data + .bootloader)
+
+Data:        287 bytes (14.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:53:07 **** Incremental Build of configuration Debug for project Jana_Wael_Mini_Project4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Jana_Wael_Mini_Project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9646 bytes (29.4% Full)
+(.text + .data + .bootloader)
+
+Data:        287 bytes (14.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:53:18 **** Incremental Build of configuration Debug for project Jana_Wael_Mini_Project4 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Jana_Wael_Mini_Project4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Jana_Wael_Mini_Project4.map -mmcu=atmega32 -o "Jana_Wael_Mini_Project4.elf"  ./gpio.o ./icu.o ./lcd.o ./main.o ./ultraSonic.o   
+Finished building target: Jana_Wael_Mini_Project4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Jana_Wael_Mini_Project4.elf  >"Jana_Wael_Mini_Project4.lss"
+Finished building: Jana_Wael_Mini_Project4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Jana_Wael_Mini_Project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9646 bytes (29.4% Full)
+(.text + .data + .bootloader)
+
+Data:        287 bytes (14.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:54:59 **** Incremental Build of configuration Debug for project Jana_Wael_Mini_Project4 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Jana_Wael_Mini_Project4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Jana_Wael_Mini_Project4.map -mmcu=atmega32 -o "Jana_Wael_Mini_Project4.elf"  ./gpio.o ./icu.o ./lcd.o ./main.o ./ultraSonic.o   
+Finished building target: Jana_Wael_Mini_Project4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Jana_Wael_Mini_Project4.elf  >"Jana_Wael_Mini_Project4.lss"
+Finished building: Jana_Wael_Mini_Project4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Jana_Wael_Mini_Project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9620 bytes (29.4% Full)
+(.text + .data + .bootloader)
+
+Data:        269 bytes (13.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:56:50 **** Incremental Build of configuration Debug for project Jana_Wael_Mini_Project4 ****
+make all 
+Building file: ../ultraSonic.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ultraSonic.d" -MT"ultraSonic.o" -c -o "ultraSonic.o" "../ultraSonic.c"
+In file included from ../ultraSonic.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ultraSonic.c
+ 
+Building target: Jana_Wael_Mini_Project4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Jana_Wael_Mini_Project4.map -mmcu=atmega32 -o "Jana_Wael_Mini_Project4.elf"  ./gpio.o ./icu.o ./lcd.o ./main.o ./ultraSonic.o   
+Finished building target: Jana_Wael_Mini_Project4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Jana_Wael_Mini_Project4.elf  >"Jana_Wael_Mini_Project4.lss"
+Finished building: Jana_Wael_Mini_Project4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Jana_Wael_Mini_Project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9620 bytes (29.4% Full)
+(.text + .data + .bootloader)
+
+Data:        269 bytes (13.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:58:10 **** Incremental Build of configuration Debug for project Jana_Wael_Mini_Project4 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Jana_Wael_Mini_Project4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Jana_Wael_Mini_Project4.map -mmcu=atmega32 -o "Jana_Wael_Mini_Project4.elf"  ./gpio.o ./icu.o ./lcd.o ./main.o ./ultraSonic.o   
+Finished building target: Jana_Wael_Mini_Project4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Jana_Wael_Mini_Project4.elf  >"Jana_Wael_Mini_Project4.lss"
+Finished building: Jana_Wael_Mini_Project4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Jana_Wael_Mini_Project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9628 bytes (29.4% Full)
+(.text + .data + .bootloader)
+
+Data:        269 bytes (13.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:00:17 **** Incremental Build of configuration Debug for project Jana_Wael_Mini_Project4 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Jana_Wael_Mini_Project4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Jana_Wael_Mini_Project4.map -mmcu=atmega32 -o "Jana_Wael_Mini_Project4.elf"  ./gpio.o ./icu.o ./lcd.o ./main.o ./ultraSonic.o   
+Finished building target: Jana_Wael_Mini_Project4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Jana_Wael_Mini_Project4.elf  >"Jana_Wael_Mini_Project4.lss"
+Finished building: Jana_Wael_Mini_Project4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Jana_Wael_Mini_Project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9662 bytes (29.5% Full)
+(.text + .data + .bootloader)
+
+Data:        287 bytes (14.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:00:50 **** Incremental Build of configuration Debug for project Jana_Wael_Mini_Project4 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Jana_Wael_Mini_Project4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Jana_Wael_Mini_Project4.map -mmcu=atmega32 -o "Jana_Wael_Mini_Project4.elf"  ./gpio.o ./icu.o ./lcd.o ./main.o ./ultraSonic.o   
+Finished building target: Jana_Wael_Mini_Project4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Jana_Wael_Mini_Project4.elf  >"Jana_Wael_Mini_Project4.lss"
+Finished building: Jana_Wael_Mini_Project4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Jana_Wael_Mini_Project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9660 bytes (29.5% Full)
+(.text + .data + .bootloader)
+
+Data:        285 bytes (13.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:03:39 **** Incremental Build of configuration Debug for project Jana_Wael_Mini_Project4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Jana_Wael_Mini_Project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9660 bytes (29.5% Full)
+(.text + .data + .bootloader)
+
+Data:        285 bytes (13.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:03:45 **** Incremental Build of configuration Debug for project Jana_Wael_Mini_Project4 ****
+make all 
+Building file: ../ultraSonic.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ultraSonic.d" -MT"ultraSonic.o" -c -o "ultraSonic.o" "../ultraSonic.c"
+In file included from ../ultraSonic.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ultraSonic.c
+ 
+Building target: Jana_Wael_Mini_Project4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Jana_Wael_Mini_Project4.map -mmcu=atmega32 -o "Jana_Wael_Mini_Project4.elf"  ./gpio.o ./icu.o ./lcd.o ./main.o ./ultraSonic.o   
+Finished building target: Jana_Wael_Mini_Project4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Jana_Wael_Mini_Project4.elf  >"Jana_Wael_Mini_Project4.lss"
+Finished building: Jana_Wael_Mini_Project4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Jana_Wael_Mini_Project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9660 bytes (29.5% Full)
+(.text + .data + .bootloader)
+
+Data:        285 bytes (13.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:08:29 **** Incremental Build of configuration Debug for project Jana_Wael_Mini_Project4 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../ultraSonic.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ultraSonic.d" -MT"ultraSonic.o" -c -o "ultraSonic.o" "../ultraSonic.c"
+In file included from ../ultraSonic.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ultraSonic.c
+ 
+Building target: Jana_Wael_Mini_Project4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Jana_Wael_Mini_Project4.map -mmcu=atmega32 -o "Jana_Wael_Mini_Project4.elf"  ./gpio.o ./icu.o ./lcd.o ./main.o ./ultraSonic.o   
+Finished building target: Jana_Wael_Mini_Project4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Jana_Wael_Mini_Project4.elf  >"Jana_Wael_Mini_Project4.lss"
+Finished building: Jana_Wael_Mini_Project4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Jana_Wael_Mini_Project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9662 bytes (29.5% Full)
+(.text + .data + .bootloader)
+
+Data:        287 bytes (14.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:11:17 **** Incremental Build of configuration Debug for project Jana_Wael_Mini_Project4 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Jana_Wael_Mini_Project4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Jana_Wael_Mini_Project4.map -mmcu=atmega32 -o "Jana_Wael_Mini_Project4.elf"  ./gpio.o ./icu.o ./lcd.o ./main.o ./ultraSonic.o   
+Finished building target: Jana_Wael_Mini_Project4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Jana_Wael_Mini_Project4.elf  >"Jana_Wael_Mini_Project4.lss"
+Finished building: Jana_Wael_Mini_Project4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Jana_Wael_Mini_Project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9690 bytes (29.6% Full)
+(.text + .data + .bootloader)
+
+Data:        285 bytes (13.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:07:13 **** Incremental Build of configuration Debug for project Jana_Wael_Mini_Project4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Jana_Wael_Mini_Project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9690 bytes (29.6% Full)
+(.text + .data + .bootloader)
+
+Data:        285 bytes (13.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:19:14 **** Incremental Build of configuration Debug for project Jana_Wael_Mini_Project4 ****
+make all 
+Building file: ../Read_Distance.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"Read_Distance.d" -MT"Read_Distance.o" -c -o "Read_Distance.o" "../Read_Distance.c"
+Finished building: ../Read_Distance.c
+ 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../icu.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"icu.d" -MT"icu.o" -c -o "icu.o" "../icu.c"
+../icu.c: In function 'ICU_setCallBack':
+../icu.c:82: warning: function return types not compatible due to 'volatile'
+Finished building: ../icu.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../lcd.c
+ 
+Building file: ../ultraSonic.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ultraSonic.d" -MT"ultraSonic.o" -c -o "ultraSonic.o" "../ultraSonic.c"
+In file included from ../ultraSonic.c:16:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ultraSonic.c
+ 
+Building target: Jana_Wael_Mini_Project4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Jana_Wael_Mini_Project4.map -mmcu=atmega32 -o "Jana_Wael_Mini_Project4.elf"  ./Read_Distance.o ./gpio.o ./icu.o ./lcd.o ./ultraSonic.o   
+Finished building target: Jana_Wael_Mini_Project4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Jana_Wael_Mini_Project4.elf  >"Jana_Wael_Mini_Project4.lss"
+Finished building: Jana_Wael_Mini_Project4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Jana_Wael_Mini_Project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9692 bytes (29.6% Full)
+(.text + .data + .bootloader)
+
+Data:        287 bytes (14.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

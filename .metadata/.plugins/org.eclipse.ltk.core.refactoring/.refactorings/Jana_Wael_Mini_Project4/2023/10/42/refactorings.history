@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Jana_Wael_Mini_Project4/main.c&apos; to &apos;Read_Distance.c&apos;" description="Rename resource &apos;main.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="main.c" name="Read_Distance.c" stamp="1697836073233" updateReferences="true"/>
+</session>

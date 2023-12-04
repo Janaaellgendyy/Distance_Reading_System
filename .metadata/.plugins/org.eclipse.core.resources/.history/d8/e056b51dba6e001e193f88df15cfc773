@@ -1,0 +1,34 @@
+/*
+ * main.c
+ *
+ *  Created on: Oct 16, 2023
+ *      Author: janaw
+ */
+
+#include "icu.h"
+#include "lcd.h"
+#include "ultraSonic.h"
+#include <avr/io.h>
+
+
+int main(void){
+
+	SREG = (1 << 7);
+
+	uint8 distance = 0;
+
+	LCD_init();
+
+	Ultrasonic_init();
+
+//	LCD_displayString("Distance=    ");
+
+
+
+
+	distance = Ultrasonic_readDistance();
+	LCD_intgerToString(distance);
+
+	while(1){
+	}
+}

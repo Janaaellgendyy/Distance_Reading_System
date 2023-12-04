@@ -1,0 +1,42 @@
+/*
+ * ultraSonic.c
+ *
+ *  Created on: Oct 16, 2023
+ *      Author: janaw
+ */
+
+#include "ultraSonic.h"
+#include "icu.h"
+#include "gpio.h"
+#include <util/delay.h>
+
+
+void Ultrasonic_init(void){
+
+	ICU_ConfigType ICU_Configs = {F_CPU_8, RAISING};
+
+	ICU_setCallBack(Ultrasonic_edgeProcessing);
+
+	ICU_init(&ICU_Configs);
+
+	GPIO_setupPinDirection(TRIGGER_PORT, TRIGGER_PIN, PIN_OUTPUT);
+
+}
+
+void Ultrasonic_Trigger(void){
+
+	GPIO_writePin(TRIGGER_PORT, TRIGGER_PIN, LOGIC_HIGH);
+
+	_delay_us(10);
+
+	GPIO_writePin(TRIGGER_PORT, TRIGGER_PIN, LOGIC_LOW);
+
+}
+
+uint16 Ultrasonic_readDistance(void){
+
+}
+
+void Ultrasonic_edgeProcessing(void){
+
+}
